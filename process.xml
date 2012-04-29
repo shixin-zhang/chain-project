@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<EsbProcess>
+   <endpoints>
+      <endpoint name="client008-insertfacility" type="provider" adaptor="DataBaseAdaptor" container="client008" service="client008-insertfacility">
+         <replyTo>false</replyTo>
+         <description >client008-insertfacility</description >
+      </endpoint>
+      <endpoint name="poll" type="consumer" adaptor="DataBaseAdaptor" container="client008" service="client008-pollequiment">
+         <properties/>
+         <description>poll</description>
+         <mediation name="switch" sendSync="false" reliable="false"/>
+      </endpoint>
+   </endpoints>
+   <mediations>
+      <mediation name="switch" mediator="XMLTransformer" container="servercontainer">
+         <inbounds>
+            <inbound source="poll"/>
+         </inbounds>
+         <outbounds>
+            <outbound endpoint="client008-insertfacility"/>
+         </outbounds>
+         <transformconfig>
+            <xsltfile href="switch.xsl"/>
+         </transformconfig>
+      </mediation>
+   </mediations>
+</EsbProcess>
+
+<!-- 
+现在的想法是每个节点都会有inbounds和outbounds节点信息
+inbound的属性是source
+outbound的属性是next
+
+每个处理单元要是存在资源的情况下就添加属性service
+ -->

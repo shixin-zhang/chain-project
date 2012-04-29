@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EsbProcess>
+	<endpoints>
+		<endpoint name="" adaptor="" service="" class="" sourcedestination="ture or false" sendsync="true or false">
+			<inbounds>
+				<inbound source=""/>
+				<inbound source=""/>
+			</inbounds>
+			<outbounds>
+				<outbound next="" />
+				<outbound next="" />
+			</outbounds>
+			<discription>
+				越描越黑哦
+			</discription>
+		</endpoint>
+		<endpoint name="" adaptor="" service="" class="">
+			<inbounds>
+				<inbound source=""/>
+				<inbound source=""/>
+			</inbounds>
+			<outbounds>
+				<outbound next="" />
+				<outbound next="" />
+			</outbounds>
+			<discription>
+				越描越黑哦
+			</discription>
+		</endpoint>
+	</endpoints>
+	<mediations>
+		<mediation name="" mediator="" service="" class="">
+			<inbounds>
+				<inbound source=""/>
+				<inbound source=""/>
+			</inbounds>
+			<outbounds>
+				<outbound next="" />
+				<outbound next="" />
+			</outbounds>
+			<discription>
+				越描越黑哦
+			</discription>
+		</mediation>
+	</mediations>
+</EsbProcess>
+
+<!--
+	暂时的字段信息就是这样的
+	还没有考虑到同步和异步的信息
+	class的属性是为了自定义转换器使用的
+	sourcedestination的作用是在异步的情况下处理返回值用的
+	-->

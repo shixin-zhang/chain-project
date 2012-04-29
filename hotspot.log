@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='4172' time_ms='1335526544935'>
+<vm_version>
+<name>
+Java HotSpot(TM) Client VM
+</name>
+<release>
+20.0-b10-fastdebug
+</release>
+<info>
+Java HotSpot(TM) Client VM (20.0-b10-fastdebug) for windows-x86 JRE (1.6.0_25-ea-fastdebug-b03), built on Feb 27 2011 03:51:39 by &quot;java_re&quot; with MS VC++ 7.1 (VS2003)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-Dfile.encoding=UTF-8 
+</args>
+<command>
+com.xin.server.ESBServer
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=20.0-b10-fastdebug
+java.vm.name=Java HotSpot(TM) Client VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.endorsed.dirs=D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\endorsed
+sun.boot.library.path=D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\bin
+java.library.path=D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\usr\local\wbin;D:\Program Files\Python;D:\Andriod\android-sdk-windows\platform-tools;D:\Program Files\Java\jdk1.6.0_25\fastdebug\bin;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\bin;.;D:\Apache\apache-maven-3.0.4\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;d:\Program Files\Windows7Master;D:\Program Files\Windows7Master;D:\Program Files\TortoiseSVN\bin;F:\mule-standalone-3.2.1\bin;D:\Program Files\apache-ant-1.8.2\bin;F:\mule-standalone-3.2.1\bin;C:\shortcut;D:\Program Files\MySQL\MySQL Server 5.0\bin;D:\Program Files\MySQL\MySQL Server 5.1\bin;D:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files\Microsoft Visual Studio\Common\Tools;D:\Program Files\Microsoft Visual Studio\VC98\bin
+java.home=D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre
+java.class.path=C:\Users\Turing\Desktop\ResponsibilityChain\target\classes;C:\Users\Turing\Desktop\ResponsibilityChain\lib\ant-1.7.1.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\commons-codec-1.4.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\commons-httpclient-3.1.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\commons-io-1.4.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\commons-lang-2.4.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\commons-logging-1.1.1.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\dom4j-1.6.1.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\jaxen-1.1.1.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\log4j-1.2.16-patch.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\looks-2.2.1.jar;C:\Users\Turing\Desktop\ResponsibilityChain\lib\saxon9he.jar
+sun.boot.class.path=D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\resources.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\rt.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\jce.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\lib\modules\jdk.boot.jar;D:\Program Files\Java\jdk1.6.0_25\fastdebug\jre\classes
+java.vm.specification.vendor=Sun Microsystems Inc.
+java.vm.specification.version=1.0
+java.vm.vendor=Sun Microsystems Inc.
+file.encoding=UTF-8
+sun.java.command=com.xin.server.ESBServer
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='4612'/>
+C1 Runtime statistics:
+ _resolve_invoke_virtual_cnt:     0
+ _resolve_invoke_opt_virtual_cnt: 1
+ _resolve_invoke_static_cnt:      0
+ _handle_wrong_method_cnt:        0
+ _ic_miss_cnt:                    0
+ _generic_arraycopy_cnt:          0
+ _primitive_arraycopy_cnt:        0
+ _oop_arraycopy_cnt:              0
+ _arraycopy_slowcase_cnt:         0
+ _new_type_array_slowcase_cnt:    0
+ _new_object_array_slowcase_cnt:  0
+ _new_instance_slowcase_cnt:      0
+ _new_multi_array_slowcase_cnt:   0
+ _monitorenter_slowcase_cnt:      0
+ _monitorexit_slowcase_cnt:       0
+ _patch_code_slowcase_cnt:        0
+ _throw_range_check_exception_count:            0:
+ _throw_index_exception_count:                  0:
+ _throw_div0_exception_count:                   0:
+ _throw_null_pointer_exception_count:           0:
+ _throw_class_cast_exception_count:             0:
+ _throw_incompatible_class_change_error_count:  0:
+ _throw_array_store_exception_count:            0:
+ _throw_count:                                  0:
+
+<statistics type='nmethod'>
+Statistics for 8 bytecoded nmethods:
+ total in heap  = 13152
+ relocation     = 1024
+ main code      = 3904
+ stub code      = 512
+ oops           = 40
+ scopes data    = 1728
+ scopes pcs     = 3904
+ dependencies   = 32
+ nul chk table  = 264
+Debug Data Chunks: 328, shared 32+62, non-SP&apos;s elided 2
+PcDesc Statistics:  7 queries, 11.14 comparisons per query
+  caches=8 queries=7/0, hits=0+1, tests=26+52, adds=6
+</statistics>
+<writer thread='5196'/>
+<destroy_vm stamp='0.379'/>
+<tty_done stamp='0.410'/>
+</tty>
+<hotspot_log_done stamp='0.410'/>
+</hotspot_log>
